@@ -1,9 +1,9 @@
 from twitchio.ext import commands
 
 bot = commands.Bot(
-    token="oauth:your_oauth_token_here",  # you can generate a new OAuth token at https://twitchtokengenerator.com/ 
+    token="oauth:your_oauth_token",  # you can generate a new OAuth token at https://twitchtokengenerator.com/ 
     prefix="!",
-    initial_channels=["your_channel_here"] # replace with your twitch channel name
+    initial_channels=["your_channel_name"] # replace with your twitch channel name
 )
 
 # you can add more commands here(e.g. !socials, !about, etc.)
