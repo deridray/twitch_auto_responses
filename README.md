@@ -30,7 +30,7 @@ git clone https://github.com/deridray/twitch_auto_responses.git
 cd twitch_auto_responses
 python -m venv venv
 source venv/bin/activate
-pip install twitchio
+pip install twitchio==2.7.0
 ```
 also,  you need to open `bot.py` file and modify it. replace `your_oauth_token` with your access token(you can get it from https://twitchtokengenerator.com/) and `your_channel_name` with your twitch channel name
 
